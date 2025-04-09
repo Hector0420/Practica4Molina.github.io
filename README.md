@@ -4,16 +4,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mi Sitio Educativo - Nivel Medio Superior</title>
+<title>Mi Sitio Educativo - Nivel Medio Superior</title>
     <style>
         /* Estilos básicos */
         body {
-            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-            line-height: 1.6;
-            margin: 0;
-            padding: 0;
-            color: #333;
-            background-color: #f5f5f5;
+	font-family: "Comic Sans MS", cursive;
+	line-height: 1.6;
+	margin: 0;
+	padding: 0;
+	color: blue;
+	background-color: #f5f5f5;
         }
         
         header {
@@ -24,7 +24,7 @@
         }
         
         nav {
-            background-color: #34495e;
+            background-color: Black;
             padding: 0.5rem;
         }
         
@@ -73,12 +73,12 @@
         }
         
         h1, h2, h3 {
-            color: #2c3e50;
+	color: #FFCC66;
         }
         
         .destacado {
             background-color: #eaf2f8;
-            border-left: 4px solid #3498db;
+            border-left: 4px solid #3499db;
             padding: 15px;
             margin: 15px 0;
         }
@@ -93,13 +93,16 @@
                 margin: 5px 0;
             }
         }
+    .claro {
+	color: #80FFFF;
+}
     </style>
 </head>
 <body>
-    <header>
-        <h1>Mi Sitio Educativo</h1>
-        <p>Portal de aprendizaje para nivel medio superior</p>
-    </header>
+<header>
+        <h1 class="destacado">Mi Sitio Educativo</h1>
+        <p class="destacado">Portal de aprendizaje para nivel medio superior</p>
+  </header>
     
     <nav>
         <ul>
@@ -108,8 +111,8 @@
             <li><a href="#ciencias">Ciencias</a></li>
             <li><a href="#humanidades">Humanidades</a></li>
             <li><a href="#contacto">Contacto</a></li>
-        </ul>
-    </nav>
+      </ul>
+</nav>
     
     <main>
         <section id="inicio">
@@ -206,7 +209,7 @@
     <footer>
         <p>&copy; 2023 Mi Sitio Educativo - Nivel Medio Superior. Todos los derechos reservados.</p>
         <p>Síguenos en redes sociales: 
-            <a href="#" style="color: #f1c40f;">Facebook</a> | 
+<a href="#" style="color: #f1c40f;">Facebook</a> | 
             <a href="#" style="color: #f1c40f;">Twitter</a> | 
             <a href="#" style="color: #f1c40f;">YouTube</a>
         </p>
